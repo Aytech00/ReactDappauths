@@ -1,15 +1,12 @@
-import Item from "./components/Item";
+import './App.css';
+import Layout from './components/Layout/Layout';
 
 function App() {
-  return(
-    <Item></Item>
-
-  )
-
-
-  
-  
-
+  return (
+    <Layout />
+    
+  );
 }
 
 export default App;
+
